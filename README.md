@@ -3,7 +3,9 @@ Research4All : CS2334 - Final Project
 
 Spring 2026
 
+
 Problem Statement
+
 Recursion and iteration are two fundamental approaches to problem-solving in computer
 science. While recursion often provides elegant and readable solutions, it carries signiﬁcant
 overhead due to the Java Virtual Machine (JVM) call stack. Iteration is generally more
@@ -19,7 +21,7 @@ Assignment Components:
 	• As a team, discuss and summarize what the theory says about the relative
 		performance, memory limits (stack overﬂow), and the "cost" of a method call.
 
-2. Implementation:
+3. Implementation:
 	a) Write your own implementations of the following algorithm, both Recursively and
 	Iteratively.
 		I. Fibonacci Sequence
@@ -33,13 +35,13 @@ Assignment Components:
 		IV. Identify the "Recursion Cliff": Note the input size where a StackOverﬂowError occurs for recursive versions.
 		V. Plot results in charts/graphs (Time vs. Input Size) to visualize trends.
 
-3. Analyze the theoretical expectations with your experimental results. Discuss:
+4. Analyze the theoretical expectations with your experimental results. Discuss:
 	I. When does the iterative implementation signiﬁcantly outperform the recursive one?
 	II. Is there a "small-input" range where recursion is actually faster or comparable?
 	III. Do your results align with the theory of the JVM Call Stack?
 	IV. What were the speciﬁc limits of your system before recursion failed?
 
-4. Deliverables
+5. Deliverables
 	I. Code: Submit your full Java implementations and experimental driver programs.
 	II. Poster: Create a visually clear, creative poster that includes:
 		• Introduction & motivation (why we care about this comparison).
@@ -48,8 +50,9 @@ Assignment Components:
 		• Graphs/Charts of your comparative results showing the performance curves.
 		• Key Conclusions: Under what circumstances should a developer prefer iteration over recursion?
 
-5. Timeline
+6. Timeline
 Week Dates Milestones
+
 Week 1 Mar 09 – Mar 13 Teams formed; read and summarize articles on recursion vs. iteration.
 
 Week 2 Mar 16 – Mar 20 Spring Break: (Optional) Review iterative logic for selected algorithms.
