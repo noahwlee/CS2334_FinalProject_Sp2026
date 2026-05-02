@@ -11,7 +11,15 @@ public class FastExponent {
 	    }
 	    return result;
 	}
-	
+
+
+	public static BigInteger powerRecursive(int base, int exponent) {
+    if (exponent == 0) {
+        return BigInteger.ONE;
+    }
+    return BigInteger.valueOf(base).multiply(powerRecursive(base, exponent - 1));
+}
+
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
 		
